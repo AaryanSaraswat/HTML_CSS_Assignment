@@ -6,19 +6,17 @@
 #website {
   width: 100%;
   height: 100%;
-  /* background-color: #5300b1; */
   background-image: linear-gradient(#5f00cc, #470099);
 }
 
 #header-logo-btn {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  column-gap: 20px;
-  row-gap: 10px;
   padding: 10px;
   justify-content: flex-start;
-  align-items: center;
+  align-items: start;
+  gap: 30px;
 }
 
 #beta-button {
@@ -30,6 +28,10 @@
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 25px;
+}
+
+#cambridge-shield {
+  display: none;
 }
 
 #hero-section {
@@ -52,7 +54,7 @@ main {
 #welcome-text {
   color: white;
   text-align: left;
-  margin-top: 80px;
+  margin-top: 30px;
   font-size: 1.25rem;
   font-family: Muli, sans-serif;
   /* padding-bottom: 20px; */
@@ -83,11 +85,15 @@ main {
   background-color: #ece1fd;
   color: #5f00cc;
   padding: 10px;
-  border-radius: 25px;
   font-size: medium;
+  border-radius: 25px;
   font-family: Muli, sans-serif;
   border: none;
   /* align-self: center; */
+}
+
+#practicenow-btn {
+  align-self: center;
 }
 
 #image-playback {
@@ -103,10 +109,6 @@ main {
 
 #playback-button {
   position: absolute;
-  /* width: 50px; */
-  /* height: 50px; */
-  /* z-index: 1; */
-  /* border-radius: 50%; */
   top: 45%;
   left: 40%;
   background: none;
@@ -156,22 +158,139 @@ article h3 {
   font-weight: 50;
 }
 
-#cambridge-shield {
-  display: none;
-  /* width: 88px; */
-}
-
-@media screen and (max-width: 577px) {
+@media (min-width: 576px) {
   #practicenow-btn {
-    align-self: center;
+    align-self: flex-start;
   }
+
   #header-logo-btn {
-    flex-direction: column;
-    align-items: start;
-    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
   }
 
   #welcome-text {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  #header-logo-btn {
+    padding-left: 30px;
+  }
+
+  #cambridge-shield {
+    display: block;
+    margin-top: 80px;
+    width: 88px;
+  }
+
+  #hero-section {
+    background-image: url(./Assets/voila-welcome-background.0694b42f.svg);
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+  }
+
+  #welcome-text {
+    margin-top: 0px;
+    font-size: 1.5rem;
+  }
+  #description-text div {
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+  #description-text {
+    line-height: 2rem;
+  }
+
+  #practicenow-btn button {
+    width: 350px;
+    height: 60px;
+    font-size: large;
+  }
+  #students-img {
+    height: 500px;
+  }
+
+  .desccription-items img {
+    width: 350px;
+  }
+
+  #desktop-img {
+    width: 650px;
+    padding-right: 0;
+  }
+  .footer-container h2 {
+    font-weight: 50;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero-section {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  #hero-content {
+    margin-bottom: 100px;
+  }
+
+  #students-img {
+    height: 100%;
+  }
+
+  #welcome-text {
+    font-size: 1.7rem;
+  }
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desccription-items {
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  #change-order {
+    order: 2;
+  }
+
+  .desccription-text-txt {
+    text-align: left;
+    line-height: 1.3rem;
+    gap: 20px;
+  }
+
+  article p {
+    font-size: larger;
+  }
+  article h3 {
+    font-size: 1.5rem;
+    font-family: Muli, sans-serif;
+  }
+
+  .desccription-items img {
+    width: 500px;
+    padding-right: 45px;
+  }
+  .footer-container {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #hero-section {
+    padding-left: 50px;
+  }
+  #cambridge-shield {
     margin-top: 30px;
   }
 }
