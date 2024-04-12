@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="224px" height="216px" viewbox="0 0 224 216" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Colorful-Shield">
+    <path d="M0 16L80 16L80 0L0 0L0 16Z" transform="translate(144 16)" id="Fill-1" fill="#4D00A8" fill-rule="evenodd" stroke="none" />
+    <path d="M0 16L48 16L48 0L0 0L0 16Z" transform="translate(96 0)" id="Fill-1-Copy" fill="#FF41EA" fill-rule="evenodd" stroke="none" />
+    <path d="M0 40L16 40L16 0L0 0L0 40Z" transform="translate(208 32)" id="Fill-3" fill="#4D00A8" fill-rule="evenodd" stroke="none" />
+    <path d="M0 16L64 16L64 0L0 0L0 16Z" transform="translate(16 8)" id="Fill-5" fill="#0BDE85" fill-rule="evenodd" stroke="none" />
+    <path d="M0 16L64 16L64 0L0 0L0 16Z" transform="translate(48 40)" id="Fill-7" fill="#4D00A5" fill-rule="evenodd" stroke="none" />
+    <path d="M0 16L48 16L48 0L0 0L0 16Z" transform="translate(112 56)" id="Fill-9" fill="#FFBC00" fill-rule="evenodd" stroke="none" />
+    <path d="M0 16L32 16L32 0L0 0L0 16Z" transform="translate(112 72)" id="Fill-12" fill="#4D00A2" fill-rule="evenodd" stroke="none" />
+    <path d="M0 16L16 16L16 0L0 0L0 16Z" transform="translate(128 88)" id="Fill-13" fill="#4D00A2" fill-rule="evenodd" stroke="none" />
+    <path d="M16 32L16 16L32 16L32 0L0 0L0 32" transform="translate(80 72)" id="Fill-14" fill="#FFBD00" fill-rule="evenodd" stroke="none" />
+    <path d="M0 64L16 64L16 0L0 0L0 64Z" transform="translate(16 24)" id="Fill-16" fill="#0BDE85" fill-rule="evenodd" stroke="none" />
+    <path d="M0 32L16 32L16 0L0 0L0 32Z" transform="translate(48 56)" id="Fill-19" fill="#4D00A2" fill-rule="evenodd" stroke="none" />
+    <path d="M16 8C16 12.416 12.416 16 8 16C3.584 16 0 12.416 0 8C0 3.584 3.584 0 8 0C12.416 0 16 3.584 16 8" transform="translate(80 56)" id="Fill-20" fill="#27DC88" fill-rule="evenodd" stroke="none" />
+    <path d="M16 8C16 12.416 12.416 16 8 16C3.584 16 0 12.416 0 8C0 3.584 3.584 0 8 0C12.416 0 16 3.584 16 8" transform="translate(192 64)" id="Fill-20-Copy-2" fill="#FF41EA" fill-rule="evenodd" stroke="none" />
+    <path d="M16 8C16 12.416 12.416 16 8 16C3.584 16 0 12.416 0 8C0 3.584 3.584 0 8 0C12.416 0 16 3.584 16 8" transform="translate(0 24)" id="Fill-20-Copy" fill="#4D00A5" fill-rule="evenodd" stroke="none" />
+    <path d="M16 8C16 12.416 12.416 16 8 16C3.584 16 0 12.416 0 8C0 3.584 3.584 0 8 0C12.416 0 16 3.584 16 8" transform="translate(24 185)" id="Fill-20-Copy-3" fill="#FFBD00" fill-rule="evenodd" stroke="none" />
+    <path d="M32 0L32 8C32 20 26.216 27.68 16 34C11.496 36.792 0 42 0 42L0 24L8 20C16 16 16 12 16 8L16 0L32 0Z" transform="translate(112 104)" id="Fill-22" fill="#4D009F" fill-rule="evenodd" stroke="none" />
+    <path d="M0 0L0 8C0 20 5.784 27.68 16 34C20.504 36.792 32 42 32 42L32 24L24 20C16 16 16 12 16 8L16 0L0 0Z" transform="translate(80 104)" id="Fill-24" fill="#27DC88" fill-rule="evenodd" stroke="none" />
+    <path d="M32 0L32 40C32 52 26.216 59.68 16 66C11.496 68.792 0 74 0 74L0 92L24 80C40 72 48 56 48 40L48 0L32 0Z" transform="translate(112 72)" id="Fill-26" fill="#FF4BE8" fill-rule="evenodd" stroke="none" />
+    <path d="M64 -3.33983e-13L64 56C64 76 52 100 32 110L0 126L0 108L24 96C40 88 48 72 48 56L48 -3.33983e-13L64 -3.33983e-13Z" transform="translate(112 56)" id="Fill-28" fill="#36DA8B" fill-rule="evenodd" stroke="none" />
+    <path d="M16 24L16 0L0 0L0 24C0 34.688 3.512 46.464 9.76 56.68L22.224 47.336C18.088 40.248 16 32.136 16 24" transform="translate(48 88)" id="Fill-30" fill="#FF41EA" fill-rule="evenodd" stroke="none" />
+    <path d="M22.24 30.664L54.24 46.664L54.24 28.664L30.24 16.664C22.376 12.728 16.464 6.848 12.464 0L0 9.344C5.44 18.256 12.928 26.008 22.24 30.664" transform="translate(57.76 135.336)" id="Fill-32" fill="#FFBB00" fill-rule="evenodd" stroke="none" />
+    <path d="M11.496 0L0 11.624C6.664 19.208 13.936 24.68 20.04 27.776C28.04 31.816 60.04 48 60.04 48L60.04 29.8L28.04 13.608C21.624 10.36 16.136 5.56 11.496 0" transform="translate(43.9568 168)" id="Fill-34" fill="#4D00A5" fill-rule="evenodd" stroke="none" />
+    <path d="M27.824 0L27.824 24C27.824 42.528 17.424 64.352 0 75.44L8.456 89.328C24.072 79.416 43.824 56.672 43.824 24L43.824 0L27.824 0Z" transform="translate(164.176 96)" id="Fill-36" fill="#4D00A5" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
