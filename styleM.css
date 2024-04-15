@@ -118,6 +118,50 @@ main {
   width: 50px;
 }
 
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  & > div {
+    width: 90%;
+    height: 30%;
+    max-width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+}
+.modal-close {
+  align-self: flex-end;
+}
+.modal-close img {
+  height: 100%;
+  width: 70%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
 .desccription-items {
   display: flex;
   flex-direction: column;
@@ -173,11 +217,17 @@ article h3 {
   #welcome-text {
     margin-top: 80px;
   }
+  .modal-window div {
+    height: 40%;
+  }
 }
 
 @media (min-width: 768px) {
   #header-logo-btn {
     padding-left: 30px;
+  }
+  .modal-window div {
+    height: 50%;
   }
 
   #cambridge-shield {
