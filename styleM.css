@@ -23,6 +23,7 @@
   width: 80px;
   height: 30px;
   color: white;
+  font-weight: 600;
   text-align: center;
   background-color: #a177d9;
   border: none;
@@ -83,13 +84,20 @@ main {
   width: 300px;
   height: 40px;
   background-color: #ece1fd;
-  color: #5f00cc;
+  font-weight: 550;
+  color: #821ff3;
   padding: 10px;
   font-size: medium;
   border-radius: 25px;
   font-family: Muli, sans-serif;
   border: none;
   /* align-self: center; */
+}
+
+#practicenow-btn :hover {
+  background-color: #a177d9;
+  font-weight: 550;
+  color: #ece1fd;
 }
 
 #practicenow-btn {
@@ -179,10 +187,10 @@ main {
   gap: 8px;
 }
 
-article p {
+.description-container p {
   font-size: medium;
 }
-article h3 {
+.description-container h3 {
   font-family: Muli, sans-serif;
 }
 
@@ -254,7 +262,9 @@ article h3 {
   #description-text {
     line-height: 2rem;
   }
-
+  #sectiorn-2 {
+    background-color: white;
+  }
   #practicenow-btn button {
     width: 350px;
     height: 60px;
@@ -319,10 +329,10 @@ article h3 {
     gap: 20px;
   }
 
-  article p {
+  .description-container p {
     font-size: larger;
   }
-  article h3 {
+  .description-container h3 {
     font-size: 1.5rem;
     font-family: Muli, sans-serif;
   }
