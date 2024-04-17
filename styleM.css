@@ -3,13 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-#website {
+#welcome-page-container {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(#5f00cc, #470099);
 }
 
-#header-logo-btn {
+#welcome-page-container-header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -19,7 +19,7 @@
   gap: 30px;
 }
 
-#beta-button {
+#welcome-page-container-header-beta-button {
   width: 80px;
   height: 30px;
   color: white;
@@ -29,13 +29,30 @@
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 25px;
+  position: relative;
 }
 
-#cambridge-shield {
+#welcome-page-container-header-beta-button-tooltip-text {
+  visibility: hidden;
+  width: 220px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-weight: 100;
+  line-height: 20px;
+  border-radius: 6px;
+  position: absolute;
+  top: 35px;
+  left: 80px;
+  z-index: 1;
+}
+
+#welcome-page-container-main-content-container-inner-div-items-cambridge-shield {
   display: none;
 }
 
-#hero-section {
+#welcome-page-container-main-content-container {
   background-image: url(./Assets/voila-welcome-background-mobile.163345ae.svg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -60,20 +77,20 @@ main {
   font-family: Muli, sans-serif;
   /* padding-bottom: 20px; */
 }
-#description-text div {
+#welcome-page-container-section-2-items-text div {
   color: white;
   font-size: large;
   display: flex;
   align-items: center;
   gap: 10px;
 }
-#description-text {
+#welcome-page-container-section-2-items-text {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 10px;
 }
-#hero-content {
+#welcome-page-container-main-content-container-inner-div {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -170,27 +187,27 @@ main {
   padding-right: 0;
 }
 
-.desccription-items {
+.welcome-page-container-section-2-items {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px;
 }
-.desccription-items img {
+.welcome-page-container-section-2-items img {
   /* align-self: center; */
   width: 250px;
 }
-.desccription-text-txt {
+.welcome-page-container-section-2-items-text-inner-txt {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.description-container p {
+.welcome-page-container-section-2 p {
   font-size: medium;
 }
-.description-container h3 {
+.welcome-page-container-section-2 h3 {
   font-family: Muli, sans-serif;
 }
 
@@ -215,7 +232,7 @@ main {
     align-self: flex-start;
   }
 
-  #header-logo-btn {
+  #welcome-page-container-header {
     flex-direction: row;
     align-items: center;
     column-gap: 20px;
@@ -231,38 +248,44 @@ main {
 }
 
 @media (min-width: 768px) {
-  #header-logo-btn {
+  #welcome-page-container-header {
     padding-left: 30px;
   }
   .modal-window div {
     height: 50%;
   }
 
-  #cambridge-shield {
+  #welcome-page-container-main-content-container-inner-div-items-cambridge-shield {
     display: block;
     margin-top: 80px;
     width: 88px;
   }
 
-  #hero-section {
+  #welcome-page-container-main-content-container {
     background-image: url(./Assets/voila-welcome-background.0694b42f.svg);
     flex-direction: row;
     align-items: center;
     padding: 40px;
   }
 
+  #welcome-page-container-header-beta-button:hover
+    #welcome-page-container-header-beta-button-tooltip-text {
+    visibility: visible;
+  }
+
   #welcome-text {
     margin-top: 0px;
     font-size: 1.5rem;
   }
-  #description-text div {
+
+  #welcome-page-container-section-2-items-text div {
     font-size: 1.5rem;
     padding-left: 20px;
   }
-  #description-text {
+  #welcome-page-container-section-2-items-text {
     line-height: 2rem;
   }
-  #sectiorn-2 {
+  #welcome-page-container-section-2 {
     background-color: white;
   }
   #practicenow-btn button {
@@ -274,7 +297,7 @@ main {
     height: 500px;
   }
 
-  .desccription-items img {
+  .welcome-page-container-section-2-items img {
     width: 350px;
   }
 
@@ -289,12 +312,12 @@ main {
 }
 
 @media (min-width: 1200px) {
-  #hero-section {
+  #welcome-page-container-main-content-container {
     flex-wrap: nowrap;
     justify-content: space-evenly;
   }
 
-  #hero-content {
+  #welcome-page-container-main-content-container-inner-div {
     margin-bottom: 100px;
   }
 
@@ -305,14 +328,14 @@ main {
   #welcome-text {
     font-size: 1.7rem;
   }
-  .description-container {
+  .welcome-page-container-section-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .desccription-items {
+  .welcome-page-container-section-2-items {
     width: 80%;
     flex-direction: row;
     justify-content: space-between;
@@ -323,21 +346,21 @@ main {
     order: 2;
   }
 
-  .desccription-text-txt {
+  .welcome-page-container-section-2-items-text-inner-txt {
     text-align: left;
     line-height: 1.3rem;
     gap: 20px;
   }
 
-  .description-container p {
+  .welcome-page-container-section-2 p {
     font-size: larger;
   }
-  .description-container h3 {
+  .welcome-page-container-section-2 h3 {
     font-size: 1.5rem;
     font-family: Muli, sans-serif;
   }
 
-  .desccription-items img {
+  .welcome-page-container-section-2-items img {
     width: 500px;
     padding-right: 45px;
   }
@@ -347,10 +370,10 @@ main {
 }
 
 @media (min-width: 1400px) {
-  #hero-section {
+  #welcome-page-container-main-content-container {
     padding-left: 50px;
   }
-  #cambridge-shield {
+  #welcome-page-container-main-content-container-inner-div-items-cambridge-shield {
     margin-top: 30px;
   }
 }
