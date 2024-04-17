@@ -115,6 +115,7 @@ main {
   background-color: #a177d9;
   font-weight: 550;
   color: #ece1fd;
+  cursor: pointer;
 }
 
 #practicenow-btn {
