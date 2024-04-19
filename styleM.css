@@ -32,6 +32,10 @@
   position: relative;
 }
 
+#welcome-page-container-header-beta-button:hover {
+  cursor: pointer;
+}
+
 #welcome-page-container-header-beta-button-tooltip-text {
   visibility: hidden;
   width: 220px;
@@ -116,6 +120,12 @@ main {
   font-weight: 550;
   color: #ece1fd;
   cursor: pointer;
+}
+
+#practicenow-btn :focus-visible {
+  background-color: #a177d9;
+  font-weight: 550;
+  color: #ece1fd;
 }
 
 #practicenow-btn {
